@@ -1,64 +1,62 @@
-💳 BankFlow — A Streamlit-Powered Bank Management App
-BankFlow is a clean, beginner-friendly Bank Management System built using Python and Streamlit, featuring essential operations like account creation, deposit, withdrawal, updates, and deletion — all done with a modern interface and data stored securely in JSON format.
+# 💳 BankFlow — Streamlit-Powered Bank Management System
 
-This project is a great showcase of OOP (Object-Oriented Programming), file handling, exception handling, and real-time data persistence — a perfect portfolio booster for freshers stepping into the IT world!
+**BankFlow** is a beginner-friendly, interactive **Bank Management System** built using **Python** and **Streamlit**. This project showcases essential IT skills such as **Object-Oriented Programming (OOP)**, **exception handling**, **file I/O using `pathlib`**, and **data storage with JSON** — all wrapped in a responsive web interface powered by Streamlit.
 
-🚀 Key Features
-✅ Create a secure bank account
-✅ Deposit and withdraw money with balance checks
-✅ View and update your account details
-✅ Delete your account permanently
-✅ Data saved in data.json for persistence
-✅ Clean, interactive UI with Streamlit
+---
 
-🧠 What I Used
-Tech / Concept	Usage
-Python	Core logic for all bank operations
-Streamlit	Interactive web interface
-OOP (Classes)	Organizing account operations cleanly
-JSON	Storing and retrieving user data
-Pathlib	Handling file paths efficiently
-Random + String	Generating unique account numbers
-Exception Handling	Catching input and type errors gracefully
+## 📌 Features
 
-📁 Project Structure
-bash
-Copy
-Edit
+- 📝 Create new user accounts with validation (18+ age, 4-digit PIN)
+- 💰 Deposit money securely (up to ₹1,00,000 per transaction)
+- 🏧 Withdraw money with real-time balance checks
+- 📄 View full account details
+- 🛠️ Update personal details (name, email, PIN)
+- 🗑️ Delete user accounts with confirmation
+- 🔐 PIN-based authentication for all actions
+- 🧠 Persistent data storage via `data.json`
+- 🧰 Uses OOP for modular, maintainable design
+
+---
+
+## 🛠️ Technologies Used
+
+| Tool/Module         | Purpose                              |
+|---------------------|---------------------------------------|
+| `Python 3`          | Core logic and functionality          |
+| `Streamlit`         | Interactive web UI                    |
+| `OOP`               | Code organization & encapsulation     |
+| `JSON`              | Lightweight, human-readable database  |
+| `pathlib`           | Cross-platform file handling          |
+| `random`, `string`  | Account number generation             |
+| `Exception Handling`| Robust user input and error control   |
+
+---
+
+## 🗂️ Project Structure
+
 BankFlow/
 │
-├── bankapp.py       # Main application (Streamlit + logic)
-├── data.json        # All user data stored here
-└── README.md        # You are here!
-🔧 How to Run
-Clone this repository
+├── bankapp.py # Streamlit app and core logic
+└── data.json # JSON file storing account data
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/BankFlow.git
-cd BankFlow
-Install Streamlit (if not already)
 
-nginx
-Copy
-Edit
-pip install streamlit
-Run the app
+---
 
-arduino
-Copy
-Edit
-streamlit run bankapp.py
-It will open in your browser automatically. ✅
+## 🚀 Getting Started
 
-🛡️ License
-This project is open-source and available under the MIT License — you’re free to use, modify, and share!
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/BankFlow.git
+   cd BankFlow
+2. **Install Streamlit**
+   ```bash
+   pip install streamlit
+3. **Run the application**
+   ```bash
+   streamlit run bankapp.py
+## 📝 License
+This project is licensed under the MIT License. You are free to use, modify, and distribute it with attribution.
 
-💡 Why BankFlow?
-As a fresher passionate about backend and UI integration, I created BankFlow to demonstrate how simple technologies like Python and Streamlit can solve real-world problems in a smart way. It reflects best practices in code design, data handling, and interactivity.
-
-✨ Want to Contribute?
-Pull requests are welcome! Feel free to fork and submit your improvements — from UI enhancements to feature upgrades.
-
-🙌 If you like this project, give it a ⭐ on GitHub and connect with me on LinkedIn!
+## 🙋‍♂️ About the Developer
+Abhiraj Chauhan
+🎓 B.Tech in Computer Science
