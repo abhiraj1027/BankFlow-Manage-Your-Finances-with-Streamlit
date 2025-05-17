@@ -39,6 +39,19 @@ BankFlow/
 ├── bankapp.py # Streamlit app and core logic
 └── data.json # JSON file storing account data
 
+---
+
+## 📱 Mobile View
+
+Here is the mobile view of the application:-
+<img width="434" alt="Screenshot 2025-05-17 at 7 47 22 PM" src="https://github.com/user-attachments/assets/006f9c7a-2cba-480f-a3b9-f21f952e84e4" />
+
+---
+
+## 🖥️ Web View
+
+Here is the web UI of the BankFlow:-
+<img width="1470" alt="Screenshot 2025-05-17 at 7 48 41 PM" src="https://github.com/user-attachments/assets/d04bf82f-d0c8-4e8f-b3c7-22aa9a022ddd" />
 
 ---
 
